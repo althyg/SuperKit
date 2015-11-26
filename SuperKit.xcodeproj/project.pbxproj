@@ -14,6 +14,7 @@
 		2083CD6F1BF0C3C400413D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2083CD6D1BF0C3C400413D07 /* LaunchScreen.storyboard */; };
 		2083CD7A1BF0C3C500413D07 /* SuperKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083CD791BF0C3C500413D07 /* SuperKitTests.swift */; };
 		2083CD851BF0C3C500413D07 /* SuperKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083CD841BF0C3C500413D07 /* SuperKitUITests.swift */; };
+		208E9F9A1C0349A6001FFF3D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208E9F991C0349A6001FFF3D /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2083CD801BF0C3C500413D07 /* SuperKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2083CD841BF0C3C500413D07 /* SuperKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKitUITests.swift; sourceTree = "<group>"; };
 		2083CD861BF0C3C500413D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208E9F991C0349A6001FFF3D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2083CD641BF0C3C400413D07 /* AppDelegate.swift */,
 				2083CD661BF0C3C400413D07 /* ViewController.swift */,
+				208E9F991C0349A6001FFF3D /* DataModel.swift */,
 				2083CD681BF0C3C400413D07 /* Main.storyboard */,
 				2083CD6B1BF0C3C400413D07 /* Assets.xcassets */,
 				2083CD6D1BF0C3C400413D07 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				2083CD671BF0C3C400413D07 /* ViewController.swift in Sources */,
 				2083CD651BF0C3C400413D07 /* AppDelegate.swift in Sources */,
+				208E9F9A1C0349A6001FFF3D /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				2083CD8B1BF0C3C500413D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2083CD8C1BF0C3C500413D07 /* Build configuration list for PBXNativeTarget "SuperKitTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				2083CD8E1BF0C3C500413D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2083CD8F1BF0C3C500413D07 /* Build configuration list for PBXNativeTarget "SuperKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				2083CD911BF0C3C500413D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
